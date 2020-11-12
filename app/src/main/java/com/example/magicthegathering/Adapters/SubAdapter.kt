@@ -1,8 +1,10 @@
+package com.example.magicthegathering.Adapters
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.example.magicthegathering.Models.Card
 import com.example.magicthegathering.R
 import kotlinx.android.synthetic.main.list_item_sub.view.*
 

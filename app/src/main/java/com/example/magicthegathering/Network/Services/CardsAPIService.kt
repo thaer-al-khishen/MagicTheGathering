@@ -1,4 +1,7 @@
+package com.example.magicthegathering.Network.Services
 
+import com.example.magicthegathering.Models.Cards
+import com.example.magicthegathering.Network.Helpers.UrlBuilder
 import io.reactivex.Single
 import retrofit2.http.GET
 import retrofit2.http.Query

@@ -1,3 +1,4 @@
+package com.example.magicthegathering.Network.Helpers
 
 object UrlBuilder {
     const val BASE_URL = "https://api.magicthegathering.io/v1/"

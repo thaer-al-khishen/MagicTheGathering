@@ -1,3 +1,4 @@
+package com.example.magicthegathering.Models
 
 
 import com.google.gson.annotations.SerializedName

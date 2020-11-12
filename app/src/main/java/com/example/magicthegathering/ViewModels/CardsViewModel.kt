@@ -1,8 +1,11 @@
+package com.example.magicthegathering.ViewModels
 
 import androidx.hilt.Assisted
 import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.*
 import com.example.magicthegathering.Base.Resource
+import com.example.magicthegathering.Models.Card
+import com.example.magicthegathering.Network.Services.CardsAPIService
 import com.example.magicthegathering.Utils.IRxSchedulers
 
 class CardsViewModel @ViewModelInject constructor(private val api: CardsAPIService, private val schedulers: IRxSchedulers, @Assisted state: SavedStateHandle) :

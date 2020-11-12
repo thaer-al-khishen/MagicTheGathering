@@ -1,3 +1,4 @@
+package com.example.magicthegathering.Adapters
 
 import android.text.TextUtils
 import android.view.LayoutInflater
@@ -5,6 +6,7 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.magicthegathering.Models.Card
 import com.example.magicthegathering.R
 import com.example.magicthegathering.databinding.CardRowBinding
 import com.squareup.picasso.Picasso

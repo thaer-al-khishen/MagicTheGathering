@@ -1,3 +1,4 @@
+package com.example.magicthegathering.Network.Modules
 
 import com.example.magicthegathering.Utils.IRxSchedulers
 import dagger.Module

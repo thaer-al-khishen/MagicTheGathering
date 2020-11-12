@@ -1,4 +1,7 @@
+package com.example.magicthegathering.Network.Modules
 
+import com.example.magicthegathering.Network.Helpers.UrlBuilder
+import com.example.magicthegathering.Network.Services.CardsAPIService
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

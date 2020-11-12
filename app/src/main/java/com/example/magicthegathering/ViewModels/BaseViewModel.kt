@@ -1,3 +1,4 @@
+package com.example.magicthegathering.ViewModels
 
 import androidx.lifecycle.ViewModel
 import io.reactivex.disposables.CompositeDisposable
