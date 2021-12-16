@@ -44,7 +44,7 @@ data class Card(
     val rarity: String,
     @SerializedName("rulings")
 
-    val rulings: List<Ruling>,
+    val rulings: List<Ruling>?,
     @SerializedName("set")
     val `set`: String,
     @SerializedName("setName")

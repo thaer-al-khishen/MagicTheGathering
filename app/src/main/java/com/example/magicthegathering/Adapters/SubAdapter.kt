@@ -14,11 +14,11 @@ class SubAdapter(
 ) : RecyclerView.Adapter<ViewHolder>() {
 
     override fun getItemCount(): Int {
-        return card.rulings.size
+        return card.rulings?.size ?: 0
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.rulingsText?.text = card.rulings.get(position).date
+        holder.rulingsText?.text = card.rulings?.get(position)?.date
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, p1: Int): ViewHolder {
